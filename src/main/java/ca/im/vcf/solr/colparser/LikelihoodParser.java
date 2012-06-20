@@ -6,8 +6,6 @@ import ca.im.vcf.solr.VcfSolrField;
 
 public class LikelihoodParser extends AbstractColParser
 {
-
-    @Override
     public void parseAndPutData(Map<String, String> valueBySolrKey,
             String... cols)
     {
